@@ -5,187 +5,141 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin-dashboard</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-     <div class="container">
-        <!-- sidebar -->
-        <aside>
-            <div class="sidebar">
-                <div class="logo">
-                    <img src="./img/view-grid.png" alt="logo" class="icon"><h4>Dashboard</h4>
-                </div>
-           
-              
-                    <div class="nav-1">
-                        <ul>
-                            <li><img src="./img/home.png" alt=""  class="icon"><span>Home</span></li>
-                            <li><img src="./img/card-account-details.png" alt=""  class="icon"><span>profile</span></li>
-                            <li><img src="./img/message.png" alt=""  class="icon"><span>Messages</span></li>
-                            <li><img src="./img/clock-time-four-outline.png" alt=""  class="icon"><span>History</span></li>
-                            <li><img src="./img/file-document-multiple.png" alt=""  class="icon"><span>Tasks</span></li>
-                            <li><img src="./img/account-group.png" alt="" class="icon"><span>Communities</span></li>
-                        </ul>
-                    </div>
-
-                    <div class="nav-2">
-                        <ul>
-                            <li><img src="./img/cog.png" alt=""  class="icon"><span>Settings</span></li>
-                            <li><img src="./img/account-question.png" alt=""  class="icon"><span>Support</span></li>
-                            <li><img src="./img/shield-sun (1).png" alt=""  class="icon"><span>Privacy</span></li>
-                        </ul>
-                    </div>
-            </div>   
-    </aside>
-           <!-- header section -->
+    <div class="container">
+        <!-- header -->
         <header>
-            <div class="header-container">
-                <div class="search-bar">
-                 <img src="./img/magnify.png" alt="" class="icon">
-                 <input type="text" name="search">
+            <div class="search-container">
+                <img src="./img/magnify.png" alt="icon">
+                <input type="text">
+            </div>
+            <!-- profile-container -->
+            <div class="profile-container">
+                <img src="./img/bell-outline.png" alt="icon">
+                <img class="profile-img" src="./img/cat-g96f0e676a_640.jpg" alt="profile">
+                <div class="profile-name">Jonathan kendrick</div>
+            </div>
+            <!-- greeting-container -->
+            <div class="greeting-container">
+                <img class="profile-img" src="./img/cat-g96f0e676a_640.jpg" alt="profile">
+                <div class="greeting-content">
+                    <div class="greeting">Hi there,</div>
+                    <div class="username">Jonathan kendrick (@Glitch)</div>
                 </div>
-                 <div class="profile">
-                     <img src="./img/bell-outline.png" alt="" class="icon">
-                     <img src="./img/cat-g96f0e676a_640.jpg" alt="" class="cat-profile">
-                     <h4>Jonathan kendrick</h4>
-                 </div>
-                 <div class="profile-lg">
-                    <img src="./img/cat-g96f0e676a_640.jpg" alt="" class="cat-profile">
-                    <div class="text">
-                        <h6>Hi there,</h6>
-                      <h3>Jonathan kendrick (@ken)</h3>
-                    </div>
-                 </div>
-                 <div class="profile-utility">
-                  <button class="btn">New</button>
-                  <button class="btn">upload</button>
-                  <button class="btn">Share</button>
-                 </div>
+            </div>
+            <!--  -->
+            <div class="navigation-button">
+                <div class="button">New</div>
+                <div class="button">Upload</div>
+                <div class="button">Share</div>
             </div>
         </header>
+        <!-- sidebar -->
+        <aside>
+            <div class="logo">
+                <img src="./img/dashboard-icon.svg" alt="icon">
+                <span>Dashboard</span>
+            </div>
+            <!-- navigation -->
+            <nav class="navigation">
+                <!-- primary nav -->
+                <ul class="primary-navigation">
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/home.png" alt="icon">
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/card-account-details.png" alt="icon">
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/message.png" alt="icon">
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/clock-time-four-outline.png" alt="icon">
+                            <span>History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/file-document-multiple.png" alt="icon">
+                            <span>Tasks</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/account-group.png" alt="icon">
+                            <span>Communities</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- secondary nav -->
+                <ul class="secondary-navigation">
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/cog.png" alt="icon">
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/account-question.png" alt="icon">
+                            <span>Support</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">
+                            <img src="./img/shield-sun (1).png" alt="icon">
+                            <span>Privacy</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <!-- main -->
         <main>
-            <div class="main-grid">
-                <div class="col-1">
-
+            <!-- your project -->
+            <div class="project">
+                <h2>Your Projects</h2>
+                <div class="card-container">
                     <div class="card">
-                        <h3 class="absolute">Your project</h3>
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium nemo dicta ad tenetur cum? Sequi exercitationem ipsum nobis nemo, modi repellat, voluptates iste rerum accusamus dolorum ex repellendus quam cum?</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
+                        <div class="card_text">
+                            <h4>Super Cool Project</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum veniam itaque magnam nihil ipsam recusandae?</p>
+                        </div>
+                        <div class="card-icon">
+                            <img src="./img/star-settings-outline.png" alt="icon">
+                            <img src="./img/eye-plus-outline.png" alt="icon">
+                            <img src="./img/share-variant-outline.png" alt="icon">
                         </div>
                     </div>
-
                     <div class="card">
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nobis ipsa nostrum fuga veniam beatae, recusandae, atque porro, error placeat molestiae id. Similique adipisci sit corrupti provident tempore. Minima, perspiciatis.</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
+                        <div class="card_text">
+                            <h4>Super Cool Project</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum veniam itaque magnam nihil ipsam recusandae?</p>
+                        </div>
+                        <div class="card-icon">
+                            <img src="./img/star-settings-outline.png" alt="icon">
+                            <img src="./img/eye-plus-outline.png" alt="icon">
+                            <img src="./img/share-variant-outline.png" alt="icon">
                         </div>
                     </div>
-
-                    <div class="card">
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum veritatis consectetur necessitatibus. Aspernatur optio et deserunt? Ipsum a fuga cupiditate libero, nisi laudantium vitae natus, dolorum, dolore architecto distinctio.</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestias voluptatum error velit incidunt doloribus dicta eius ipsa eum dolorum nihil, ea repudiandae ab sequi temporibus quasi, modi deleniti distinctio.</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate, atque hic quod enim delectus vero cupiditate eos in reiciendis impedit magnam nisi explicabo cumque sed molestiae eius nemo veritatis?</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h4>Super cool project</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, minima sapiente? Sint vitae voluptatum quia et expedita reiciendis odio eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam eaque nesciunt officiis iure. Possimus deleniti velit eos vel iure dolorum eveniet quae commodi laborum unde. Libero velit adipisci quibusdam.</p>
-                        <div class="card-icons">
-                            <img src="./img/star-settings-outline.png" alt="" class="icon">
-                            <img src="./img/eye-plus-outline.png" alt="" class="icon">
-                            <img src="./img/share-variant-outline.png" alt="" class="icon">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                        <div class="anouce-lg">
-                                <h3 class="ann">Annoucements</h3>
-                                     <div class="anouce-card">
-                                    <div class="site">
-                                        <h4>Site maintenance</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, deleniti? Lorem ipsum dolor sit amet consectetur lorem </p>
-                                    </div>
-                                       <div class="underline"></div> 
-
-                                       <div class="site">
-                                        <h4>Community share day</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicin</p>
-                                    </div>
-                                    <div class="underline"></div> 
-                                       <div class="site">
-                                        <h4>Updated privacy policy</h4>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
-                                    </div>
-                                </div>
-                  </div>
-                        
-                        <div class="trending">
-                            <h3 class="abs">Trending</h3>
-                             <div class="flex-img">
-                                <img src="./img/cat-g96f0e676a_640.jpg" alt="">
-                                <div>
-                                    <h5>@tegan</h5>
-                                    <p>World peace builder</p>
-                                </div>
-                                </div>
-                             <div class="flex-img">
-                                <img src="./img/cat-g96f0e676a_640.jpg" alt="">
-                                <div>
-                                    <h5>@tegan</h5>
-                                    <p>World peace builder</p>
-                                </div>
-                            </div>
-                             <div class="flex-img">
-                                <img src="./img/cat-g96f0e676a_640.jpg" alt="">
-                                <div>
-                                    <h5>@tegan</h5>
-                                    <p>World peace builder</p>
-                                </div>
-                            </div>
-                             <div class="flex-img">
-                                <img src="./img/cat-g96f0e676a_640.jpg" alt="">
-                                <div>
-                                    <h5>@tegan</h5>
-                                    <p>World peace builder</p>
-                                </div>
-                            </div>
-                             </div>
-                        </div>
                 </div>
             </div>
+            <!-- Annoucement -->
+            <div class="announcement">
+                
+            </div>
         </main>
-     </div>
+    </div>
 </body>
 </html>
