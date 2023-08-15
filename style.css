@@ -183,8 +183,8 @@ aside{
 
 main{
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    padding: 30px 30px 80px 20px;
+    grid-template-columns: 2.5fr 1fr;
+    padding: 30px 30px 60px 20px;
     background-color: #f4f4f5;
     gap: 25px;
 }
@@ -207,7 +207,7 @@ main{
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+    gap:30px 20px;
 }
 
 .project .card{
@@ -232,6 +232,7 @@ main{
   font-size: .95rem;
   font-weight: 700;
   color: rgb(167, 166, 166);
+  line-height: 1.2;
 }
 
 .card-icon{
@@ -243,10 +244,67 @@ main{
 
 /*announcement  */
 .news{
-    border: 1px solid red;
+    display: grid;
+    align-content: space-between;
 }
 
 .announcment-card{
     margin-top: 10px;
-    /* continue from here */
+    padding: 20px;
+}
+
+.announcment{
+    padding: 8px 0px;
+}
+
+.announcment h4{
+    font-size: .90rem;
+    line-height: 1.6;
+}
+
+.announcment p{
+    font-size: .85rem;
+    color: rgb(167, 166, 166);
+    line-height: 1.2;
+}
+
+.announcment-card .announcment:nth-child(2){
+    border-bottom: 1px solid rgb(167, 166, 166);
+    border-top: 1px solid rgb(167, 166, 166);
+}
+
+/* trending */
+.trending-card{
+    margin-top: 10px;
+    padding: 25px 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.trending{
+    display: flex;
+    align-items: center;
+}
+
+.trending img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.trending .desc{
+    margin-left: 15px;
+}
+
+.trending .desc h4{
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    line-height: 1.5;
+}
+
+.trending .desc p{
+    font-size: .85rem;
+    font-weight: 600;
+    color: rgb(126, 126, 126);
 }
