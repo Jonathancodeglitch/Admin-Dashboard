@@ -25,7 +25,7 @@ img{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 1fr;
     max-width: 1800px;
     width: 100%;
@@ -186,7 +186,7 @@ aside{
 
 main{
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
+    grid-template-columns: 3fr 1fr;
     padding: 30px 30px 60px 20px;
     background-color: #f4f4f5;
     gap: 25px;
@@ -200,7 +200,7 @@ main{
 
 
 /* project */
-.main-header{
+main .main-header{
     font-size: 1.2rem;
     font-weight: 700;
     color: rgb(41, 41, 41);
@@ -209,7 +209,7 @@ main{
 .card-container{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
     gap:30px 20px;
 }
 
